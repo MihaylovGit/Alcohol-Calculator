@@ -1,0 +1,372 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+  }
+
+body {
+    margin-bottom: 0;
+    cursor: default;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/pot.jpg');
+}
+
+#canvas {
+    position: absolute;
+    max-width: 100%;
+}
+
+main {
+    padding-top: 57px;
+    flex: 1 0 auto;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 30px; 
+    padding-top: 15px;
+    flex-shrink: 0;
+}
+
+    .footer h5 {
+        color: white;
+    }
+
+    .footer a {
+        color: lightslategray;
+    }
+
+    .footer .footer-top {
+        padding-bottom: 50px;
+    }
+
+        .footer .footer-top .rado-hub {
+            max-width: 100%;
+        }
+
+        .footer .footer-top .lifestyle {
+            max-width: 100%;
+        }
+
+        .footer .footer-top .column-center {
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+.layout-identity {
+    padding-bottom: 50px;
+}
+
+.layout-administration {
+}
+
+    .layout-administration .title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+        .layout-administration .title a:link {
+            
+            text-decoration: none;
+        }
+
+        .layout-administration .title a:visited {
+           
+            text-decoration: none;
+        }
+
+    .layout-administration .sub-nav {
+        background-color: lightgrey;
+    }
+
+        .layout-administration .sub-nav .nav {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .layout-administration .sub-nav .nav-link {
+            
+            font-weight: bold;
+        }
+
+        .layout-administration .sub-nav .nav-item :hover {
+            background-color: grey;
+            color: whitesmoke;
+        }
+
+.layout-lifestyle {
+}
+
+.home {
+}
+
+    .home .index {
+        background-color: whitesmoke;
+        padding-bottom: 25px;
+    }
+
+        .home .index section {
+            border-radius: 5px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            background-color: ghostwhite;
+        }
+
+            .home .index section .title {
+                background-color: darkslategrey;
+                color: whitesmoke;
+                padding-left: 25px;
+                margin-bottom: 25px;
+                border-radius: 5px;
+                height: 25px;
+                width: 100%;
+            }
+
+        .home .index .header {
+            background-color: darkkhaki; /*darkslateblue*/
+            padding: 25px;
+            /*margin-top: 25px;*/
+            margin-bottom: 50px;
+            /*border-radius: 75px;*/
+        }
+
+        .home .index .about-row {
+            margin-top: 25px;
+            margin-bottom: 50px;
+        }
+
+            .home .index .about-row a {
+                width: 50%;
+            }
+
+        .home .index .about-btn-link-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .home .index .about-me-btn {
+            background-color: darkslategrey;
+            color: gray;
+            padding: 25px;
+            border-radius: 75px;
+        }
+
+            .home .index .about-me-btn:hover {
+                color: whitesmoke;
+                box-shadow: 5px 5px 10px 5px grey
+            }
+
+        .home .index .about-row a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .home .index .feeds {
+            margin-top: 50px;
+            margin-bottom: 25px;
+            background-color: white;
+        }
+
+        .home .index .season-inspiration {
+        }
+
+            .home .index .season-inspiration .image-wrapper {
+                width: 90%;
+                padding: 25px;
+                /*background-color:white;*/
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .home .index .season-inspiration .image {
+                width: 100%;
+            }
+
+        .home .index .cooking-recipes {
+            /*background-color: lightgray;*/
+            border-radius: 5px;
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+
+            .home .index .cooking-recipes .recipe-wrapper {
+                margin-bottom: 2.5%;
+            }
+
+            .home .index .cooking-recipes .recipe-box {
+            }
+
+                .home .index .cooking-recipes .recipe-box .recipe-img {
+                    padding: 0;
+                }
+
+        .home .index .i-suggest .banner-wrapper {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .home .index .i-suggest .banner {
+            max-width: 100%;
+            /*height: 200px;*/
+            /*width: 1000px;*/
+        }
+
+    .home .about-me {
+    }
+
+        .home .about-me .title {
+            margin-top: 25px;
+        }
+
+        .home .about-me .header {
+            margin-top: 25px;
+            padding: 50px;
+            font-weight: bold;
+        }
+
+            .home .about-me .header .my-photo {
+            }
+
+                .home .about-me .header .my-photo .image {
+                    
+                }
+
+            .home .about-me .header .contacts {
+                margin-top: 30px;
+            }
+
+        .home .about-me .summary {
+            padding: 25px;
+        }
+
+        .home .about-me .technologies {
+            padding: 25px;
+            background-color: darkslateblue;
+            color: white;
+        }
+
+            .home .about-me .technologies .list {
+                font-weight: bold;
+            }
+
+        .home .about-me .projects {
+            padding: 25px;
+        }
+
+            .home .about-me .projects .img-container {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+                .home .about-me .projects .img-container :hover {
+                    opacity: 0.8;
+                }
+
+            .home .about-me .projects .project-img {
+                max-width: 100%;
+            }
+
+        .home .about-me .education {
+            background-color: whitesmoke;
+        }
+
+        .home .about-me .certificates {
+            background-color: whitesmoke;
+            padding-bottom: 25px;
+        }
+
+            .home .about-me .certificates .header {
+                text-decoration: underline;
+            }
+
+            .home .about-me .certificates .container {
+                background-color: lightgrey;
+            }
+
+        .home .about-me .table {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+.it-useful-tools {
+    min-height: 100%;
+    background-color: darkslategrey;
+}
+
+    .it-useful-tools .library {
+        min-height: 100%;
+        background-color: darkslategrey;
+    }
+
+    
